@@ -1,0 +1,12 @@
+{
+  "resourceName": "s35de59e04",
+  "policyUUID": "5de59e04",
+  "bucketName": "profileapp7673c15329ab4ea7a2004234f51199fa",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

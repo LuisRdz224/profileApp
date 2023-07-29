@@ -1,0 +1,7 @@
+<amplify-authenticator>
+    <ng-template amplifySlot="authenticated" let-user="user" let-signOut="signOut">
+        <h1>Bienvenido, {{ user.username }}!</h1>
+        <button (click)="signOut()">Cerrar sesion</button>
+        <a href="http://localhost:4200/profile">Ir a Profile</a>
+    </ng-template>
+</amplify-authenticator>
